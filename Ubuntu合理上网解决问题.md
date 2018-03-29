@@ -33,7 +33,7 @@ Shadowsocks 使用的是 SOCKS5 类型的代理，需要自己将 HTTP 转换为
 编辑privoxy配置文件
 
 	vim /etc/privoxy/config
-4.2节末尾增加
+4.1节末尾增加
 
 	listen-address localhost:8118
 

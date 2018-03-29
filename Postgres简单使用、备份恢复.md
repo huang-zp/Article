@@ -62,6 +62,14 @@
 	sudo -u postgres dropdb huangzp_second
 
 ![](http://oumkbl9du.bkt.clouddn.com/2018-02-05-nVlqb-2018-02-05_16-37-03.png)
+## 创建用户
+	
+	CREATE USER huangzp
+	
+### 创建数据库并指定所有者
+	
+	CREATE DATABASE huangzp_data owner huangzp
+	
 
 ## 数据备份与恢复
 ### 备份数据库:
